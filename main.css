@@ -32,12 +32,12 @@ input, button, span{
 
 input{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom:20px;
 }
 
 button{
-    background-color: white;
-    color: black;
+    background-color:white;
+    color:black;
     margin: 0 auto;
 }
 
