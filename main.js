@@ -12,7 +12,7 @@ form.addEventListener('submit', function(e){
     e.preventDefault();
 
     let validarForm = sacandoDinheiro(saldo.valueAsNumber, saque.valueAsNumber)
-    if(validarform){
+    if(validarForm){
         acerto.style.display = 'block';
         saldo.value='';
         saque.value='';
@@ -21,7 +21,7 @@ form.addEventListener('submit', function(e){
 
 saque.addEventListener('keyup', function(e){
     let validarForm = sacandoDinheiro(saldo.valueAsNumber, saque.valueAsNumber)
-    if (!validarForm){
+    if(!validarForm){
         erro.style.display = 'block';
         acerto.style.display = 'none';
     } else{
